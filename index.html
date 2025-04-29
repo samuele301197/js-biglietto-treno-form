@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <form action="" id="businesscard-form">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="age">Fascia d'età</label>
+                    <select class="form-select" name="" id="age">
+                      <option value="major">Maggiorenne</option>
+                      <option value="minore">Minorenne</option>
+                    </select>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="name">Nome e cognome</label>
+                    <input class="form-control" type="text" id="name" />
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <label class="form-label" for="distance">KM da percorrere</label>
+                    <input class="form-control" type="text" id="distance" />
+                  </div>
+                  <div class="col-12 col-lg-6 pt-4">
+                    <button class="btn btn-primary mt-2" type="submit">
+                      Genera
+                    </button>
+                    <button class="btn btn-primary mt-2" type="no-submit">
+                      Annulla
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card" id="business-card">
+                <div class="card-header"><h3>Il tuo biglietto</h3></div>
+                <div class="card-body">
+                    <h3>Dettaglio passeggeri</h3>
+                  <div class="row">
+                    <div class="col-12">
+                      <h3>Nome Cognome</h3>                   
+                        <p>Offerta</p>
+                        <p>Carrozza</p>
+                        <p>Codice CP</p>
+                        <price>Costo biglietto</price>                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+ <script src="./script.js"></script>   
+</body>
+</html>
